@@ -1,4 +1,5 @@
 [k8s-master]
+<<<<<<< HEAD
 54.94.193.220 ansible_python_interpreter=/usr/bin/python3
 
 [k8s-workers]
@@ -7,4 +8,14 @@
 
 [k8s-workers:vars]
 K8S_MASTER_NODE_IP=172.31.10.80
+=======
+18.228.153.3
+
+[k8s-workers]
+54.232.148.74
+52.67.203.170
+
+[k8s-workers:vars]
+K8S_MASTER_NODE_IP=172.31.2.146
+>>>>>>> 6fc690f72ef91fe5d1181c469f008894f92a492f
 K8S_API_SECURE_PORT=6443

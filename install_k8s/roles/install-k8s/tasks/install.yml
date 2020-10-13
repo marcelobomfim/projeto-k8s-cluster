@@ -1,6 +1,9 @@
 - name: Instalando o Docker
   shell: curl -fsSL https://get.docker.com | bash
+<<<<<<< HEAD
   notify: Restart Docker
+=======
+>>>>>>> 6fc690f72ef91fe5d1181c469f008894f92a492f
 
 - name: Adicionando as chaves do repo apt do k8s
   apt_key:
@@ -20,4 +23,7 @@
     - kubelet
     - kubeadm
     - kubectl
+<<<<<<< HEAD
   notify: Restart Kubelet
+=======
+>>>>>>> 6fc690f72ef91fe5d1181c469f008894f92a492f

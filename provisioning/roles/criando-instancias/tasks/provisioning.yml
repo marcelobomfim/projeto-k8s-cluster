@@ -61,6 +61,7 @@
       to_port: 6784
       cidr_ip: 0.0.0.0/0
       rule_desc: Weavenet
+<<<<<<< HEAD
           - proto: udp
       from_port: 6784
       to_port: 6784
@@ -76,6 +77,8 @@
       to_port: 32111
       cidr_ip: 0.0.0.0/0
       rule_desc: GiropopsAppPrometheus
+=======
+>>>>>>> 6fc690f72ef91fe5d1181c469f008894f92a492f
     rules_egress:
     rules_egress:
     rules_egress:
