@@ -1,5 +1,5 @@
 [k8s-master]
-54.94.193.220 ansible_python_interpreter=/usr/bin/python3
+54.94.193.220 ansible_python_interpreter=/usr/bin/python
 
 [k8s-workers]
 18.228.10.160
