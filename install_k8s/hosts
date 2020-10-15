@@ -1,10 +1,9 @@
 [k8s-master]
-54.94.166.244
+
 
 [k8s-workers]
-54.232.0.37
-18.228.7.254
+
 
 [k8s-workers:vars]
-K8S_MASTER_NODE_IP=172.31.9.56
+K8S_MASTER_NODE_IP=
 K8S_API_SECURE_PORT=6443
